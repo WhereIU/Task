@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniDesign</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="menu" class="flex flex-wrap jc-space-bn flex-baseline">
+        <div mg-left="5vw">
+          <a class="logo" href="./index.html">UniDesign</a>
+        </div>
+        <ul mg-right="8%" class="flex flex-wrap jc-space-ard nav-main-font">
+          <li><a href="#AboutMe">About me</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="/Hire">Hire me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome" class="flex welcome" mg-top="8%">
+        <div class="flex flex-column" mg-left="5vw" max-width="34%">
+          <h2>Welcome To My PortFolio</h2>
+          <h3>
+            Hi , I am Steven<br>
+            UI/UX <span>Desginer</span>
+          </h3>
+          <p>
+            Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
+            et, plateo erat est sed turpis hoc equit
+          </p>
+          <div class="flex jc-space-bn">
+            <a class="button-blue button-a" button href="/Hire">Hire Me</a>
+            <a class="button-white button-a" button href="#Projects"
+              >My Project</a
+            >
+          </div>
+        </div>
+        <div class="flex my-photo">
+          <img src="./src/img/MyPhoto.png" alt="MyPhoto">
+        </div>
+      </section>
+
+      <section id="AboutMe" class="flex AboutMe" mg-top="8%">
+        <div
+          class="flex flex-column max-width-aboutme"
+          mg-left="3vw"
+          mg-top="13vh"
+          mg-bottom="10vh"
+        >
+          <h2>About Me</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has .
+          </p>
+          <div class="flex">
+            <a class="button-blue button-a" button mg-left="2vw" href="/Hire"
+              >Hire Me</a
+            >
+          </div>
+        </div>
+        <div class="flex mediaImg">
+          <img src="./src/img/AboutMe.png" alt="mediaImg">
+        </div>
+      </section>
+
+      <section id="Projects" class="Projects" center mg-top="16%">
+        <div class="flex flex-column">
+          <h2>My Projects</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="flex flex-wrap" center>
+          <img src="./src/img/Data.png" alt="ProjectPhoto">
+          <img src="./src/img/Car.png" alt="ProjectPhoto">
+          <img src="./src/img/Data.png" alt="ProjectPhoto">
+          <img src="./src/img/ArtGirl.png" alt="ProjectPhoto">
+          <img src="./src/img/ArtGirl.png" alt="ProjectPhoto">
+          <img src="./src/img/ArtGirl.png" alt="ProjectPhoto">
+          <img src="./src/img/Design.png" alt="ProjectPhoto">
+          <img src="./src/img/Design.png" alt="ProjectPhoto">
+          <img src="./src/img/Design.png" alt="ProjectPhoto">
+        </div>
+      </section>
+
+      <section id="Contacts" class="Contacts" mg-top="16%">
+        <div class="flex flex-column" center>
+          <h2>Contact Me</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="flex">
+          <form
+            class="flex flex-column"
+            action="/forms/Contacts.php"
+            mg-left="5vw"
+          >
+            <label for="email" sr-only>Email</label>
+            <input id="email" type="text" name="email" placeholder="Email">
+            <label for="password" sr-only>Password</label>
+            <input
+              id="password"
+              type="text"
+              name="password"
+              placeholder="Password"
+            >
+            <label for="message" sr-only>Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message.."
+            ></textarea>
+            <button>Contact</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer" mg-top="16vh">
+      <div class="flex jc-space-bn flex-wrap" width="100%" mg-left="5vw">
+        <div>
+          <h1>UniDesign</h1>
+          <div>
+            <form class="flex" action="/forms/emailSub.php">
+              <label for="emailSub" sr-only>emailSub</label>
+              <input
+                id="emailSub"
+                type="text"
+                name="email"
+                placeholder="Email"
+              >
+              <button>Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div>
+          <h1>Platform</h1>
+          <ul>
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="./overview">Overview</a></li>
+            <li><a href="./pricing">Pricing</a></li>
+            <li><a href="#AboutMe">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>Help</h1>
+          <ul>
+            <li><a href="./work">How It Works?</a></li>
+            <li><a href="./pay">Pay?</a></li>
+            <li><a href="./qustions">Qustions?</a></li>
+            <li><a href="./contact">Contact?</a></li>
+          </ul>
+        </div>
+        <div flex-ba="25%">
+          <h1>Contact</h1>
+          <ul>
+            <li><a href="tel:+000-1234-6789">(+000) 1234-6789</a></li>
+            <li>
+              <a
+                href="https://www.bing.com/maps?osid=cffa3810-f34c-447a-acb3-c0fc827318ff&cp=40.71289~-74.274013&lvl=10.35&pi=0&v=2&sV=2&form=S00027"
+                >116 Archlor Road Broadlaband, NewYork (NYC) 1205</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex line center"></div>
+      <div class="flex jc-space-bn flex-wrap media">
+        <p class="Copy-Righted">CopyRighted 2020-2023 All Rights Reserved.</p>
+        <ul class="flex media-imgs">
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="./src/img/Social-Media/Youtube.png" alt="youtube"
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="./src/img/Social-Media/instagram.png" alt="instagram"
+            ></a>
+          </li>
+          <li>
+            <a href="https://facebook.com/"
+              ><img src="./src/img/Social-Media/facebook.png" alt="facebook"
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><img src="./src/img/Social-Media/linkedin.png" alt="linkedin"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
